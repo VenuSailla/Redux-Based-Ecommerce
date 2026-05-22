@@ -1,4 +1,4 @@
-import {Routes,Route, BrowserRouter} from 'react-router-dom'
+import {Routes,Route, HashRouter} from 'react-router-dom'
 
 import { Home } from "./Home"
 import { Cart } from './Cart'
@@ -13,7 +13,7 @@ import { ProductDetails } from './ProductDetails'
 export const Mart = ()=>{
    return(
     <div>
-        <BrowserRouter>
+        <HashRouter>
         <Routes>
             <Route path ='/' element ={<Home/>}/>
             <Route path='/Shop' element={<Shop/>}/>
@@ -22,7 +22,7 @@ export const Mart = ()=>{
             <Route path="/product/:productId" element={<ProductDetails />} />
             
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
    )
 }
