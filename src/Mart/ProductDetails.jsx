@@ -8,7 +8,7 @@ import { BestSales } from './BestSales';
 import { NewArrivals } from './NewArrivals';
 import { Watch } from './Watch';
 import { ADDCART } from '../redux/cartIcon';
-import { REMOVEFROMCART } from '../redux/cartIcon';
+// import { REMOVEFROMCART } from '../redux/cartIcon';
 import { Alerts } from './Alerts';
 import { ADDTOCART } from '../redux/cartSlice';
 import { useDispatch } from 'react-redux';
@@ -41,14 +41,14 @@ export const ProductDetails = () => {
       }, 3000);
     };
 
-    let handleProductCart = (products)=>{
-      dispatch(ADDCART({ ...products, quantity: 1 }));
-      setAlertMessage("Product is added to the cart");
+    // let handleProductCart = (products)=>{
+    //   dispatch(ADDCART({ ...products, quantity: 1 }));
+    //   setAlertMessage("Product is added to the cart");
       
-      setTimeout(() => {
-        setAlertMessage("");  
-      }, 3000);
-    };
+    //   setTimeout(() => {
+    //     setAlertMessage("");  
+    //   }, 3000);
+    // };
     
     
  

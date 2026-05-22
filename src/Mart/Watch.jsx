@@ -1,4 +1,4 @@
-import watch1 from '../Assets/watch1.jpg'
+// import watch1 from '../Assets/watch1.jpg'
 import carousel2 from '../Assets/carousel2.jpg'
 import watch3 from '../Assets/watch3.jpg'
 import watch4 from '../Assets/watch4.jpg'
@@ -167,15 +167,15 @@ const WatchPage = () => {
   console.log(id)
   
   let dispatch = useDispatch()
-   let [alertMessage, setAlertMessage] = useState("");
+   let [setAlertMessage] = useState("");
   
-    let handleAddToCart = (product) => {
-      dispatch(ADDTOCART({ ...product, quantity: 1 }));
-      setAlertMessage("Product is added to the cart");
-      setTimeout(() => {
-        setAlertMessage("");  
-      }, 3000);
-    }
+    // let handleAddToCart = (product) => {
+    //   dispatch(ADDTOCART({ ...product, quantity: 1 }));
+    //   setAlertMessage("Product is added to the cart");
+    //   setTimeout(() => {
+    //     setAlertMessage("");  
+    //   }, 3000);
+    // }
     let handleAddCart = (product) => {
       dispatch(ADDCART({ ...product, quantity: 1 }));
       setAlertMessage("Product is added to the cart");
