@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Redux-Based-Ecommerce/static/css/main.ca67ef22.css",
-    "main.js": "/Redux-Based-Ecommerce/static/js/main.0f18697b.js",
+    "main.js": "/Redux-Based-Ecommerce/static/js/main.0081f48e.js",
     "static/media/bestsales5.jpg": "/Redux-Based-Ecommerce/static/media/bestsales5.0a52e133f120b069c8f0.jpg",
     "static/media/watch4.jpg": "/Redux-Based-Ecommerce/static/media/watch4.333a4734dcd0dfb17568.jpg",
     "static/media/bestsales7.jpg": "/Redux-Based-Ecommerce/static/media/bestsales7.25a8def54ac6f84b0ce4.jpg",
@@ -38,10 +38,10 @@
     "static/media/table.jpg": "/Redux-Based-Ecommerce/static/media/table.1f00f5e2ec686016a3c4.jpg",
     "index.html": "/Redux-Based-Ecommerce/index.html",
     "main.ca67ef22.css.map": "/Redux-Based-Ecommerce/static/css/main.ca67ef22.css.map",
-    "main.0f18697b.js.map": "/Redux-Based-Ecommerce/static/js/main.0f18697b.js.map"
+    "main.0081f48e.js.map": "/Redux-Based-Ecommerce/static/js/main.0081f48e.js.map"
   },
   "entrypoints": [
     "static/css/main.ca67ef22.css",
-    "static/js/main.0f18697b.js"
+    "static/js/main.0081f48e.js"
   ]
 }
